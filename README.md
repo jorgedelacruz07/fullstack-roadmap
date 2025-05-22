@@ -1,118 +1,124 @@
 # 🛠️ Full Stack Web Developer Roadmap
 
-A comprehensive and structured guide to help software developers learn Full Stack Development concepts, skills, and practices.
+A comprehensive and structured guide to help software engineering students learn Full Stack Development concepts, skills, and practices using **free** resources.
 
 ---
 
 ## 🧑‍💻 1. Programming Fundamentals
 
 ### 📝 Summary:
-Understanding how to structure instructions for computers to perform tasks. This is the **foundation of every software system**.
+The foundation of software engineering: solving problems systematically through programming.
 
 ### ✅ Key Concepts:
 
 - **Programming logic**: control flow, loops, conditionals.  
-  📖 [Learn to Program](https://learnpythonthehardway.org/book/)
-- **Algorithms**: step-by-step procedures for solving problems.  
-  📖 [Introduction to Algorithms](https://mitpress.mit.edu/9780262046305/)
-- **Data Structures**: efficient ways to store and organize data.  
-  📚 [GeeksForGeeks - Data Structures](https://www.geeksforgeeks.org/data-structures/)
-- **Design Patterns**: reusable solutions to common problems.  
-  📖 [Refactoring Guru - Patterns](https://refactoring.guru/design-patterns)
-- **SOLID Principles**: five key principles for maintainable code.  
-  📖 [SOLID Explained](https://dev.to/mak0o/solid-principles-in-javascript-57kh)
-- **Version Control**: collaborating and tracking code changes.  
-  📚 [Git Handbook](https://guides.github.com/introduction/git-handbook/)
+  📖 [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x/)
+- **Algorithms and Data Structures**: fundamental for efficient problem-solving.  
+  📚 [freeCodeCamp - Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- **Design Patterns**: standard solutions to common problems.  
+  📖 [Refactoring Guru - Design Patterns (Free)](https://refactoring.guru/design-patterns)
+- **SOLID Principles**: foundational software engineering practices.  
+  📖 [SOLID Principles Explained](https://dev.to/mak0o/solid-principles-in-javascript-57kh)
+- **Version Control**: collaborate and manage code.  
+  📚 [Git Handbook](https://guides.github.com/introduction/git-handbook/)  
+  📺 [Git & GitHub Crash Course - freeCodeCamp](https://www.youtube.com/watch?v=RGOj5yH7evk)
 
 ---
 
 ## 🌐 2. Frontend Development
 
 ### 📝 Summary:
-Building **user interfaces** and ensuring **good user experience** through design, responsiveness, and performance.
+Building intuitive user interfaces and crafting user experiences.
 
 ### ✅ Key Concepts:
 
-- **HTML, CSS, JavaScript**: core building blocks of the web.  
+- **HTML, CSS, JavaScript**: the foundation of the web.  
   📚 [MDN Web Docs](https://developer.mozilla.org/en-US/)
-- **TypeScript**: adds static typing to JavaScript for better tooling.  
-  📖 [TypeScript Handbook](https://www.typescriptlang.org/docs/)
+- **TypeScript**: type-safe JavaScript.  
+  📖 [TypeScript Docs](https://www.typescriptlang.org/docs/)
 
 ### ✅ Frameworks:
 
-- **React**: declarative library for building UIs.  
-  📚 [React Docs](https://reactjs.org/)
-- **Vue.js**: progressive framework for UI.  
-  📖 [Vue Docs](https://vuejs.org/)
-- **Svelte**: compiler that converts code into efficient JS.  
+- **React**: declarative UI library.  
+  📚 [React Docs](https://reactjs.org/docs/getting-started.html)  
+  📺 [React Tutorial - freeCodeCamp](https://www.youtube.com/watch?v=bMknfKXIFA8)
+- **Vue.js**: approachable framework.  
+  📖 [Vue Docs](https://vuejs.org/guide/introduction.html)  
+  📺 [Vue 3 Crash Course](https://www.youtube.com/watch?v=YrxBCBibVo0)
+- **Svelte**: compiler for efficient web apps.  
   📖 [Svelte Tutorial](https://svelte.dev/tutorial)
 
 ### ✅ Tools:
 
-- **Vite**: next-generation frontend tooling.  
-  📖 [Vite Docs](https://vitejs.dev/)
+- **Vite**: fast build tool.  
+  📖 [Vite Docs](https://vitejs.dev/guide/)
 - **Webpack**: module bundler.  
-  📖 [Webpack Docs](https://webpack.js.org/concepts/)
+  📖 [Webpack Concepts](https://webpack.js.org/concepts/)
 
 ### ✅ Styling:
 
 - **Tailwind CSS**: utility-first CSS framework.  
   📖 [Tailwind Docs](https://tailwindcss.com/docs)
+- **CSS Tricks**: helpful articles and guides.  
+  📚 [CSS-Tricks](https://css-tricks.com/guides/)
 
 ### ✅ Concepts:
 
-- **SSR vs CSR**: different rendering approaches.  
-  📖 [Next.js Rendering](https://nextjs.org/docs/basic-features/pages#server-side-rendering)
-- **Virtual DOM**: optimization technique.  
-  📖 [How React Works](https://reactjs.org/docs/faq-internals.html)
-- **Component architecture**: reusable UI pieces.
+- **SSR vs CSR**: rendering strategies.  
+  📖 [Next.js Rendering Guide](https://nextjs.org/docs/basic-features/pages#server-side-rendering)
+- **Virtual DOM**: concept behind modern frameworks.  
+  📖 [React Docs on Virtual DOM](https://reactjs.org/docs/faq-internals.html)
 
 ---
 
 ## 🖥️ 3. Backend Development
 
 ### 📝 Summary:
-Developing **server-side logic**, **data handling**, and **business rules** to support frontend applications.
+Building the logic and infrastructure behind web applications.
 
 ### ✅ Key Concepts:
 
-- **Node.js**: runtime for executing JS on the server.  
-  📖 [Node.js Docs](https://nodejs.org/en/docs/)
-- **Express.js**: minimalist framework for building APIs.  
-  📖 [Express Docs](https://expressjs.com/)
+- **Node.js**: JavaScript runtime for servers.  
+  📖 [Node.js Docs](https://nodejs.org/en/docs/)  
+  📺 [Node.js Crash Course](https://www.youtube.com/watch?v=fBNz5xF-Kx4)
+- **Express.js**: minimalist web framework.  
+  📖 [Express Docs](https://expressjs.com/)  
+  📺 [Express.js Crash Course](https://www.youtube.com/watch?v=L72fhGm1tfE)
 
 ### ✅ APIs:
 
-- **REST**: representational state transfer, standard for web APIs.  
-  📚 [RESTful API Guide](https://restfulapi.net/)
-- **GraphQL**: query language for APIs.  
+- **REST**: standard API design.  
+  📚 [RESTful API Tutorial](https://restfulapi.net/)
+- **GraphQL**: alternative query language.  
   📖 [GraphQL Docs](https://graphql.org/learn/)
-- **JWT**: method for securely transmitting information.  
-  📖 [JWT.io](https://jwt.io/introduction/)
+- **JWT**: secure authentication.  
+  📖 [JWT Introduction](https://jwt.io/introduction/)
 
 ---
 
 ## 🗄️ 4. Databases
 
 ### 📝 Summary:
-Systems for **storing, retrieving, and managing** application data.
+Storing, organizing, and querying data efficiently.
 
 ### ✅ SQL:
 
-- Structured data storage.
-- Relational databases like MySQL, PostgreSQL.  
-  📚 [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
+- **MySQL**: relational database.  
+  📖 [MySQL Tutorial](https://www.mysqltutorial.org/)
+- **PostgreSQL**: advanced relational database.  
+  📖 [PostgreSQL Tutorial](https://www.postgresqltutorial.com/)
 
 ### ✅ NoSQL:
 
-- Flexible schema storage.
-- MongoDB is popular for web apps.  
-  📖 [MongoDB University](https://university.mongodb.com/)
+- **MongoDB**: document-oriented database.  
+  📖 [MongoDB University (Free Courses)](https://university.mongodb.com/)  
+  📺 [MongoDB Crash Course](https://www.youtube.com/watch?v=-56x56UppqQ)
 
 ### ✅ Concepts:
 
-- **Normalization**: avoid redundancy.
-- **Indexes**: improve query performance.  
+- **Normalization**: reduce redundancy.  
+  📚 [Database Normalization Explained](https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/)
+- **Indexes**: improve performance.  
   📚 [MongoDB Indexes](https://www.mongodb.com/docs/manual/indexes/)
 
 ---
@@ -120,41 +126,45 @@ Systems for **storing, retrieving, and managing** application data.
 ## 🚀 5. DevOps & Deployment
 
 ### 📝 Summary:
-Automating the **build, test, and deployment** processes and managing **infrastructure**.
+Ensuring smooth deployment and scalability through automation and containerization.
 
 ### ✅ Tools:
 
 - **GitHub Actions**: CI/CD pipelines.  
   📖 [GitHub Actions Docs](https://docs.github.com/en/actions)
-- **Docker**: containerize applications.  
-  📚 [Docker Getting Started](https://docs.docker.com/get-started/)
+- **Docker**: containerization platform.  
+  📚 [Docker Getting Started](https://docs.docker.com/get-started/)  
+  📺 [Docker Crash Course](https://www.youtube.com/watch?v=3c-iBn73dDE)
 - **Kubernetes**: container orchestration.  
   📖 [Kubernetes Docs](https://kubernetes.io/docs/home/)
 
 ### ✅ Deployment:
 
-- Platforms like **Vercel**, **Netlify**, **DigitalOcean**.  
-  📚 [Vercel Docs](https://vercel.com/docs)
-- Environment variables for config management.
+- **Vercel**: frontend deployment.  
+  📚 [Vercel Docs](https://vercel.com/docs)  
+- **Netlify**: static site deployment.  
+  📚 [Netlify Docs](https://docs.netlify.com/)
+- **DigitalOcean**: cloud hosting.  
+  📚 [DigitalOcean Tutorials](https://www.digitalocean.com/community/tutorials)
 
 ---
 
 ## 🧪 6. Testing
 
 ### 📝 Summary:
-Ensuring that your code **works as expected** and is **maintainable** over time.
+Making sure software works as expected, with confidence.
 
 ### ✅ Types of testing:
 
-- **Unit**: individual components.  
+- **Unit Testing**: test small parts of code.  
   📚 [Jest Docs](https://jestjs.io/docs/getting-started)
-- **Integration**: combined components.
-- **E2E**: full workflows (e.g., with Cypress).  
+- **Integration Testing**: test combined parts.  
+- **E2E Testing**: test user flows.  
   📖 [Cypress Docs](https://docs.cypress.io/)
 
 ### ✅ Methodologies:
 
-- **Test Driven Development (TDD)**: writing tests first.  
+- **Test Driven Development (TDD)**: write tests before code.  
   📖 [TDD Guide](https://www.agilealliance.org/glossary/tdd/)
 
 ---
@@ -162,18 +172,20 @@ Ensuring that your code **works as expected** and is **maintainable** over time.
 ## 🏛️ 7. Best Practices and Architecture
 
 ### 📝 Summary:
-Organizing codebases for **scalability**, **readability**, and **maintenance**.
+Building scalable, maintainable systems with proven practices.
 
 ### ✅ Key practices:
 
-- **Clean Code**: write understandable and simple code.  
-  📖 [Clean Code Book](https://www.oreilly.com/library/view/clean-code/9780136083238/)
-- **DDD**: focus on core business concepts.  
+- **Clean Code**: writing readable code.  
+  📺 [Clean Code - freeCodeCamp](https://www.youtube.com/watch?v=zzAdEt3xZ1M)
+- **Domain-Driven Design (DDD)**: focusing on core business concepts.  
   📚 [DDD Reference](https://domainlanguage.com/ddd/)
-- **Hexagonal Architecture**: separating infrastructure from core logic.
-- **Monorepos**: multiple projects in a single repo.  
+- **Hexagonal Architecture**: isolate core logic from infrastructure.  
+  📖 [Hexagonal Architecture Guide](https://alistair.cockburn.us/hexagonal-architecture/)
+- **Monorepos**: multiple projects in one repo.  
   📖 [Turborepo](https://turbo.build/repo)
-- **Monolith vs Microservices**: design trade-offs.
+- **Monolith vs Microservices**: architectural trade-offs.  
+  📚 [Microservices vs Monolith](https://martinfowler.com/articles/microservices.html)
 
 ---
 
